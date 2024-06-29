@@ -1,0 +1,91 @@
+:root {
+    /** colours **/
+    --yellow:           #FED766; 
+    --lt-seafoam-green: #ecf9f6;
+    --seafoam-green:    #43C6AC;
+    --md-blue:          #191654;
+    --dk-blue:          #0C0B2A;
+    --blue-grey:        #6B717E;
+
+    /** typography **/
+    --headings:'Monoton', cursive;
+    --body: 'Rubik', sans-serif;
+}
+
+.sr-only {
+    position: absolute;
+    top: 0;
+    left: -9999999px;
+    width: 0.1rem;
+    height: 0.1rem;
+    visibility: hidden;
+}
+
+.companylogo {
+    width: 200px;
+    height: 200px;
+    transform: translate(5px, -60px);
+}
+
+.hamburger-menu {
+    width: 30px;
+    height: 30px;
+    transform: translate(200px, 30px);
+}
+
+.flex-container {
+    display: flex;
+}
+
+.creativestudio {
+    font-family: 'Monoton', regular;
+    font-size: 50px;
+}
+
+header {
+    background-color: #ecf9f6;
+}
+
+.menu li {
+    text-align: center;
+    list-style-type: none;
+}
+
+.menu li {
+    font-family: 'Rubik', sans-serif;
+    font-size: 30px;
+    line-height: 100px;
+    font-weight: light;
+}
+
+header a {
+    display: block;
+    text-decoration: none;
+    color: #343463;
+    border-bottom: 2px solid #43c6ac;;
+}
+
+header a:hover {
+    color: #43c6ac;
+}
+
+.inner-container p {
+    font-family: 'Rubik', sans-serif;
+    font-size: 17px;
+    color: #ecf9f6;
+    line-height: 30px;
+}
+
+.hamburger-menu:hover {
+    cursor: pointer;
+}
+
+header nav {
+    background-color: #ecf9f6;
+    position: absolute;
+    left: 0;
+    top: 6rem;
+    width: 100%;
+    visibility: hidden;
+}
+
